@@ -2,7 +2,7 @@
 
 <img align="right" alt="GIF" height="160px" src="https://github.com/rdeconti/rdeconti-resources/blob/main/Udacity%20-%20Logotipo.png" />
 
-# Projeto Android Java Curso Udacity
+# Projeto Android Java Curso Udacity - Filmes Famosos 1
 
 Projeto desenvolvido durante o curso da UDACITY para construir um aplicativo de Filmes Famosos que extrai dados da API do IMDB (The Movie Database) implementando funcionalidades básicas e layout.
 
