@@ -1,0 +1,17 @@
+<resources>
+
+    <dimen name="list_horizontal_padding">12dp</dimen>
+    <dimen name="list_vertical_padding">12dp</dimen>
+    <dimen name="list_item_margins">4dp</dimen>
+    <dimen name="list_toolbar_side_margin">0dp</dimen>
+
+    <dimen name="detail_photo_height">320dp</dimen>
+    <dimen name="detail_photo_height_overlap">96dp</dimen>
+    <dimen name="detail_inner_horizontal_margin">16dp</dimen>
+    <dimen name="detail_meta_bar_vertical_padding">16dp</dimen>
+    <dimen name="detail_meta_bar_title_bottom_padding">4dp</dimen>
+    <dimen name="detail_body_bottom_margin">88dp</dimen>
+
+    <dimen name="detail_card_width">800dp</dimen>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- TODO REVIEW REQUIREMENT: Color -->
+
+    <color name="primary">#2231ff</color>
+    <color name="primaryDark">#1934e6</color>
+    <color name="accent">#03A9F4</color>
+
+    <color name="text">#FFFFFF</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+
+    <color name="white">#ffffff</color>
+    <color name="grey_700">#616161</color>
+
+    <color name="photo_placeholder">#bdbdbd</color>
+    <color name="photo_overlay">#50000000</color>
+
+</resources>

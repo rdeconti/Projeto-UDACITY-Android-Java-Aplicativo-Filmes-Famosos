@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="list_horizontal_padding">48dp</dimen>
+    <dimen name="list_vertical_padding">48dp</dimen>
+    <dimen name="list_item_margins">16dp</dimen>
+    <dimen name="list_toolbar_side_margin">52dp</dimen>
+
+    <dimen name="detail_card_width">800dp</dimen>
+    <dimen name="detail_inner_horizontal_margin">64dp</dimen>
+
+</resources>

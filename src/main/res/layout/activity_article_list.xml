@@ -1,0 +1,61 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.rosemeire.deconti.elegantreader.userInterface.ArticleListActivity">
+
+    <!-- TODO REVIEW REQUIREMENT: Coordinator layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- TODO REVIEW REQUIREMENT: AppBar -->
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:elevation="@dimen/elevation_appbar">
+
+            <!-- TODO REVIEW REQUIREMENT: Toolbar -->
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_marginLeft="@dimen/list_toolbar_side_margin"
+                android:layout_marginRight="@dimen/list_toolbar_side_margin"
+                app:subtitleTextAppearance="@style/TextAppearance.AppCompat"
+                app:theme="@style/Toolbar"
+                app:title="@string/app_name"
+                app:titleTextAppearance="@android:style/TextAppearance.Material.Title"
+                app:titleTextColor="@color/white" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:paddingBottom="@dimen/list_vertical_padding"
+                android:paddingLeft="@dimen/list_horizontal_padding"
+                android:paddingRight="@dimen/list_horizontal_padding"
+                android:paddingTop="@dimen/list_vertical_padding"
+                android:scrollbarStyle="outsideOverlay"
+                tools:listitem="@layout/list_item_article" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

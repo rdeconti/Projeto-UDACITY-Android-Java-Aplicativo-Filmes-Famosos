@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Elegant Reader</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="share_text">I found this awesome book called \"%s\"!</string>
+
+    <string name="message_10">This will not even be null because we are setting it just above line…</string>
+    <string name="message_20">Not online, not refreshing</string>
+
+    <string name="text_01">Testing text 01. Testing text 01. Testing text 01. Testing text 01. Testing text 01. Testing text 01. Testing text 01. Testing text 01.</string>
+    <string name="text_02">Testing text 02. Testing text 02. Testing text 02. Testing text 02. Testing text 02. Testing text 02. Testing text 02. Testing text 02.</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="detail_photo_height">384dp</dimen>
+    <dimen name="detail_photo_height_overlap">144dp</dimen>
+    <dimen name="detail_meta_bar_vertical_padding">32dp</dimen>
+    <dimen name="detail_meta_bar_title_bottom_padding">8dp</dimen>
+    <dimen name="detail_body_bottom_margin">96dp</dimen>
+
+</resources>
